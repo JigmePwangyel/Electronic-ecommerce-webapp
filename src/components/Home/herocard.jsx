@@ -1,11 +1,12 @@
 import green_headphones from "../../assets/green-headphones.png";
 import StarIcon from "@mui/icons-material/Star";
+import FavoriteIcon from "@mui/icons-material/Favorite";
 
 function HeroCard() {
   return (
-    <div className="flex rounded bg-white mt-10 h-64">
-      <div className="w-52 h-48  py-4 items-center">
-        <img src={green_headphones} alt="green_headphones" />
+    <div className="flex rounded-xl bg-white mt-10 h-72 shadow">
+      <div className="w-96 h-62  py-8 items-center">
+        <img src={green_headphones} alt="green_headphones" className="h-52 " />
       </div>
 
       <div className="mt-2">
@@ -32,7 +33,7 @@ function HeroCard() {
           <span className=" text-sm ml-2 text-gray-500">(2000+ reviews)</span>
         </div>
 
-        <div className="mt-3">
+        <div className="mt-3 pr-5">
           <p className="text-xs text-gray-500">
             Ergonomic ear cups with on-ear controls. Up to 22 hours of listening
             time. Apple W1 chip & Class 1 Wireless Bluetooth.
@@ -59,6 +60,21 @@ function HeroCard() {
                 <div className="rounded-full w-4 h-4 bg-green-400"></div>
               </li>
             </ul>
+          </div>
+        </div>
+
+        <div className="flex mt-4 space-x-5">
+          {/**Heart */}
+          <div className="p-2 outline rounded-lg w-14 text-center outline-primary">
+            <FavoriteIcon className="text-sm text-primary" />
+          </div>
+          {/**Add to cart */}
+          <div className="p-2 outline rounded-lg w-28 text-center outline-primary">
+            <span className="text-sm text-primary">Add to cart</span>
+          </div>
+          {/**But now */}
+          <div className="p-2 outline rounded-lg w-28 text-center outline-primary bg-primary">
+            <span className="text-sm text-white">Buy now</span>
           </div>
         </div>
       </div>

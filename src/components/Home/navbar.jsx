@@ -7,7 +7,7 @@ function Navbar() {
   return (
     <div className="flex justify-between">
       <div>
-        <h3>Headphones</h3>
+        <h3 className=" font-medium">Headphones</h3>
         <span className="text-xs">From top brands</span>
       </div>
 
