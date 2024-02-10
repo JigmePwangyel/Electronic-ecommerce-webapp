@@ -9,6 +9,8 @@ export default {
         primary: "#009393",
         "primary-dark": "#016170",
         "light-blue": "#BFECFF",
+        "gradient-start": "#A1D2FF",
+        "gradient-end": "#00E0C6",
       },
       fontFamily: {
         sans: ["Poppins", "sans-serif"],

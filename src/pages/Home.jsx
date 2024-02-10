@@ -2,6 +2,8 @@ import Navbar from "../components/Home/navbar";
 import HeroCard from "../components/Home/herocard";
 import Card from "../components/Home/card";
 import Popular from "../components/Home/popular_categories";
+import TopBrands from "../components/Home/top_brand";
+import Deals from "../components/Home/daily_deals";
 
 function Home() {
   return (
@@ -17,7 +19,14 @@ function Home() {
             <Popular />
           </div>
         </div>
-        <div className=" col-span-1"></div>
+        <div className=" col-span-1 ml-10 ">
+          <div className="mt-10">
+            <TopBrands />
+          </div>
+          <div className="mt-10">
+            <Deals />
+          </div>
+        </div>
       </div>
     </div>
   );
