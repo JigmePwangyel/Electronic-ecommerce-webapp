@@ -1,13 +1,13 @@
 import logo from "../../assets/logo.png";
-import HomeIcon from "@mui/icons-material/Home";
-import ExploreIcon from "@mui/icons-material/Explore";
+import HomeOutlinedIcon from "@mui/icons-material/HomeOutlined";
+import ExploreOutlinedIcon from "@mui/icons-material/ExploreOutlined";
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
-import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
+import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
 import LocalAtmIcon from "@mui/icons-material/LocalAtm";
 import PersonOutlineIcon from "@mui/icons-material/PersonOutline";
 import HistoryIcon from "@mui/icons-material/History";
-import CallIcon from "@mui/icons-material/Call";
-import SettingsIcon from "@mui/icons-material/Settings";
+import CallOutlinedIcon from "@mui/icons-material/CallOutlined";
+import SettingsOutlinedIcon from "@mui/icons-material/SettingsOutlined";
 import AddCircleIcon from "@mui/icons-material/AddCircle";
 
 function Sidebar() {
@@ -28,11 +28,11 @@ function Sidebar() {
       <div className="mt-8">
         <ul>
           <li className="items-center pt-3 pb-3 ">
-            <HomeIcon className="text-gray-500 mr-5" />
+            <HomeOutlinedIcon className="text-gray-500 mr-5" />
             <span className="text-gray-500">Home</span>
           </li>
           <li className="items-center pt-3 pb-3">
-            <ExploreIcon className="text-gray-500 mr-5" />
+            <ExploreOutlinedIcon className="text-gray-500 mr-5" />
             <span className="text-gray-500">Explore</span>
           </li>
           <li className="items-center  pt-3 pb-3">
@@ -40,7 +40,7 @@ function Sidebar() {
             <span className="text-gray-500">Saved</span>
           </li>
           <li className="items-center pt-3 pb-3">
-            <ShoppingCartIcon className="text-gray-500 mr-5" />
+            <ShoppingCartOutlinedIcon className="text-gray-500 mr-5" />
             <span className="text-gray-500">Cart</span>
           </li>
           <li className="items-center pt-3 pb-3">
@@ -56,11 +56,11 @@ function Sidebar() {
             <span className="text-gray-500">Purchase History</span>
           </li>
           <li className="items-center pt-3 pb-3">
-            <CallIcon className="text-gray-500 mr-5" />
+            <CallOutlinedIcon className="text-gray-500 mr-5" />
             <span className="text-gray-500">Contact us</span>
           </li>
           <li className="items-center pt-3 pb-3">
-            <SettingsIcon className="text-gray-500 mr-5" />
+            <SettingsOutlinedIcon className="text-gray-500 mr-5" />
             <span className="text-gray-500">Settings</span>
           </li>
         </ul>

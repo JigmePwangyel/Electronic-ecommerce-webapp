@@ -4,7 +4,7 @@ import green_earbuds from "../../assets/green-earbuds.png";
 
 function TopBrands() {
   return (
-    <div className="grid grid-cols-1 hover:bg-slate-200 ">
+    <div className="grid grid-cols-1 ">
       <div className=" px-5 py-5 rounded-lg shadow w-80 h-48 relative bg-gradient-to-br from-gradient-start to-gradient-end ...">
         <p className=" text-lg text-primary-dark font-medium tracking-wide">
           Summer headphones from top brands

@@ -18,7 +18,7 @@ function Navbar() {
           <input
             type="text"
             placeholder="Search"
-            className="text-xs focus:outline-none"
+            className="text-xs focus:outline-none w-48"
           />
         </div>
 
